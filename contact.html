@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ShopMall</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+body {font-family: "GHEA Grapalat";}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  color: red;
+  padding: 12px 20px;
+  border-color: red;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FF7F7F;
+  color: white;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+tr:hover {
+background-color: white;
+}
+th {
+	width: 40%;
+	border-bottom: 1px solid #ddd;
+}
+</style>
+</head>
+<body>
+<header>
+	<nav class="nav">
+		<ul>
+			<li><a href="Index.html">Տուն</a></li>
+			<li><a href="dishes.html"> Ուտեստներ</a></li>
+			<li><a href="offers.html"> Առաջարկներ</a></li>
+			<li><a href="contact.html">Կապ</a></li>
+		</ul>
+	</nav>
+</header>
+<h2 class="section-header">Խնդրում ենք գնահատել մեր բրենդը</h2>
+<table>
+	<tr>
+		<th>Ուտեստներ</th>
+		<th><select name="score">
+			<option>Լավ</option>
+			<option>Բավարար</option>
+			<option>Վատ</option>
+		</select></th>
+	</tr>
+	<tr>
+		<th>Սպասարկում</th>
+		<th><select name="score">
+			<option>Լավ</option>
+			<option>Բավարար</option>
+			<option>Վատ</option>
+		</select></th>
+	</tr>
+	<tr>
+		<th>Առաքում</th>
+		<th><select name="score">
+			<option>Լավ</option>
+			<option>Բավարար</option>
+			<option>Վատ</option>
+		</select></th>
+	</tr>
+</table>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Անուն</label>
+    <input type="text" id="fname" name="firstname" placeholder="Ձեր անունը">
+
+    <label for="lname">Ազգանուն</label>
+    <input type="text" id="lname" name="lastname" placeholder="Ձեր ազգանունը">
+
+    <label for="subject">Մեկնաբանություն</label>
+    <textarea id="subject" name="subject" placeholder="Խնդրում ենք գրել Ձեր կարծիքը" style="height:200px"></textarea>
+
+    <input type="submit" value="Ուղարկել">
+  </form>
+</div>
+<footer class="main-footer">
+	<div class="container main-footer-container">
+	<h3>
+		ShopMall.am
+	</h3>
+	<ul class="nav footer-nav">
+		<li><a href="facebook.com"><img src="facebook.png"></a></li>
+		<li><a href="instagram.com"><img src="instagram.png"></a></li>
+	</ul>
+	</div>
+</footer>
+</body>
+</html>

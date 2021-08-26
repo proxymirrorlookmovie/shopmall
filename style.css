@@ -1,0 +1,125 @@
+* {
+	font-family: "GHEA Grapalat";
+	color: #777;
+}
+
+html {
+	background-color: Beige;
+}
+.nav {text-align: center;
+	}
+nav {
+	background-color: #946B45;
+	color: red;
+}
+
+.nav li {
+		display: inline-block;
+					}
+
+.nav a {
+	color: white;
+	padding: .5em;
+	text-decoration: none;
+}
+.nav a:hover {
+	background-color: brown;
+}
+.section-header {
+	text-align: center;
+	font-size: 2em;
+}
+.about-image {
+	float: left;
+	margin: 15px;
+}
+.main-footer {
+	background-color: #dcd5b9;
+	padding: .25em;
+}
+.main-footer-container {
+	display: flex;
+	align-items: center;
+}
+.main-footer-container ul {
+flex-grow: 1;
+text-align: end;
+}
+.footer-nav li {
+	padding: 0 .5em;
+}
+.footer-nav img {
+	width: 20px;
+	height:20px;
+}
+.btn {
+	text-align: center;
+	vertical-align: middle;
+	padding: .5em;
+	cursor: pointer;
+	color: red;
+	margin-bottom: .5em;
+	margin-top: .5em;
+	border-color: red;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.btn:hover {
+background-color: #FF7F7F;
+color: white;
+}
+.offers {
+	border-bottom: 1px solid black;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+.offers:last-child {
+	border-bottom: none;
+}
+.offers-item {
+	display: inline-block;
+	padding-right: .5em;
+}
+.offers-dishes {
+	color=#555;
+	width: 7%;
+}
+.offers-quantity {
+	width: 5%;
+}
+.offers-price {
+	width: 10%;
+}
+.offers-btn {
+	max-width=20%;
+}
+.gallery {
+	padding: 1em;
+}
+.dishes-itme {
+	margin: 30px;
+}
+.dishes-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.5em;
+	color: #333;
+	margin-bottom: 15px;
+}
+.dishes-img {
+	height: 250px;
+}
+.dishes-details {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+.dishes-price {
+	flex-grow: 1;
+}
+.dishes-items {
+	display: flex;
+	justify-content: space-around;
+}
